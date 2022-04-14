@@ -1,0 +1,19 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+code {
+ font-family: "Fira Code", monospace;
+}
+
+@supports (font-variation-settings: normal) {
+ code {
+  font-family: "Fira Code VF", monospace;
+ }
+}

@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
 
-  background: linear-gradient(to bottom right, #444444, #009a5b);
+  background: #aaaaaa;
   font-size: 1.5rem;
 }
 
@@ -19,17 +19,17 @@ main {
   text-align: center;
 }
 
-.logo {
-  height: 20em;
-}
-
-.heart:after {
-  content: "❤️";
-
-  font-size: 1.75em;
-}
-
 h1 + .subtitle {
   display: block;
   margin-top: -1em;
+}
+
+* {
+  font-family: "Fira Code", monospace;
+}
+
+@supports (font-variation-settings: normal) {
+* {
+  font-family: "Fira Code VF", monospace;
+}
 }

@@ -1,3 +1,6 @@
 /dist/
 /target/
 /Cargo.lock
+dist/
+target/
+*.~undo-tree~
